@@ -1,0 +1,21 @@
+package assignment1;
+import java.util.Scanner;
+public class Assignment1 {
+    /**
+     * @param args the command line arguments
+     */
+    public static void main(String[] args) {
+    System.out.println("My Name is Kevin This is my First Programe");
+     System.out.print(" ");
+     double Length, Width ,Area ;
+    Scanner input = new Scanner(System.in);
+    System.out.print("Please enter value fo Length");
+    Length = input.nextDouble();
+    System.out.print(" ");
+    System.out.print("Please enter value fo Width");
+     Width= input.nextDouble();
+    System.out.print(" ");
+    Area = Length * Width;
+    System.out.println("The Area of the playing field is " + " "+ Area + "cm2");
+    }
+}
